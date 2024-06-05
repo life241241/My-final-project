@@ -1,0 +1,114 @@
+[
+    {
+      "id": 1,
+      "name": "Grilled Salmon Fillet",
+      "description": "Fresh salmon, lemon butter sauce, asparagus",
+      "price": 24.99,
+      "imageUrl": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Grilled-Salmon-Fillet_EXPS_DIYD21_14056_E05_12_10b.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Margherita Pizza",
+      "description": "Classic Neapolitan pizza with fresh basil",
+      "price": 12.95,
+      "imageUrl": "https://images.ctfassets.net/nw5k25xfqsik/64VwvKFqxMWQORE10Tn8pY/200c0538099dc4d1cf62fd07ce59c2af/20220211142754-margherita-9920.jpg?w=1024"
+    },
+    {
+      "id": 3,
+      "name": "Beef Bourguignon",
+      "description": "Slow-cooked beef in rich red wine",
+      "price": 18.99,
+      "imageUrl": "https://www.eatingwell.com/thmb/6tlI4vbQjm9jFv-TIyOuUBKHFBM=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/beef-bourguignon-1244-d006d74c7c0242e1b0bb9774f8511d93.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Vegetable Stir-Fry",
+      "description": "Colorful medley of fresh stir-fried veggies",
+      "price": 11.50,
+      "imageUrl": "https://www.wholesomeyum.com/wp-content/uploads/2020/11/wholesomeyum-Stir-Fry-Vegetables-15.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Chicken Caesar Salad",
+      "description": "Crisp romaine, grilled chicken, Parmesan dressing",
+      "price": 14.25,
+      "imageUrl": "https://www.hairybikers.com/uploads/images/_recipeImage/Chicken-Ceaser-Salad.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Mushroom Risotto",
+      "description": "Creamy Arborio rice with sautéed mushrooms",
+      "price": 16.75,
+      "imageUrl": "https://www.connoisseurusveg.com/wp-content/uploads/2021/08/vegan-mushroom-risotto-21-13-of-16.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Pad Thai",
+      "description": "Classic Thai rice noodle stir-fry dish",
+      "price": 13.95,
+      "imageUrl": "https://assets.bonappetit.com/photos/63f79c61e1f4511cb9dc2de0/1:1/w_1920,c_limit/022323-weeknight-pad-thai-lede.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Beef Tacos",
+      "description": "Seasoned ground beef, fresh toppings, soft tortillas",
+      "price": 10.99,
+      "imageUrl": "https://www.spendwithpennies.com/wp-content/uploads/2022/06/Easy-Beef-Tacos-40.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Sushi Platter",
+      "description": "Assortment of fresh sushi rolls and nigiri",
+      "price": 28.50,
+      "imageUrl": "https://www.seriouseats.com/thmb/M2zQ0d3I_l_e6gI_2Y3bhyOG5E0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__corus__resources__content_migration__serious_eats__seriouseats.com__2020__01__20210114-sushi-platter-classic-assortment-30-c67e7b619e134ff2b4097b76cc751c7f.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Spinach and Feta Stuffed Chicken",
+      "description": "Juicy chicken breasts stuffed with spinach and feta",
+      "price": 17.99,
+      "imageUrl": "https://www.themediterraneandish.com/wp-content/uploads/2021/06/Spinach-and-Feta-Stuffed-Chicken-5.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Eggplant Parmesan",
+      "description": "Layers of breaded eggplant, marinara, and cheese",
+      "price": 15.75,
+      "imageUrl": "https://www.acouplecooks.com/wp-content/uploads/2022/07/Eggplant-Parmesan-002.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Lamb Biryani",
+      "description": "Fragrant Indian rice dish with tender lamb",
+      "price": 19.50,
+      "imageUrl": "https://cafedelites.com/wp-content/uploads/2019/05/Lamb-Biryani-IMAGE-4.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Seafood Linguine",
+      "description": "Linguine tossed with shrimp, mussels, and garlic",
+      "price": 22.95,
+      "imageUrl": "https://www.onceuponachefblog.com/wp-content/uploads/2022/05/Seafood-Linguine-6.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Vegetable Lasagna",
+      "description": "Layers of pasta, vegetables, and creamy sauce",
+      "price": 14.25,
+      "imageUrl": "https://www.wellplated.com/wp-content/uploads/2020/01/Vegetable-Lasagna-recipe.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Beef Stroganoff",
+      "description": "Tender beef in a creamy mushroom sauce",
+      "price": 16.99,
+      "imageUrl": "https://www.thespruceeats.com/thmb/UYnLMbLqcZHRgmOh2CVbR86OFAM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/beef-stroganoff-noodles-142671437-58a5e5725f9b58a3c9c964e8.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Vegetable Curry",
+      "description": "Aromatic vegetable curry with coconut milk",
+      "price": 13.50,
+      "imageUrl": "https://cookingwithayoub.com/wp-content/uploads/2022/01/Vegetable-Curry.jpg"
+    }
+]

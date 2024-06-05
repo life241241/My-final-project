@@ -1,0 +1,30 @@
+[
+    {
+      "id": 1,
+      "address": "123 Main St, Anytown USA",
+      "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "description": "Cozy bistro serving delicious French cuisine in a warm, inviting atmosphere.",
+      "name": "Le Petit Bistro"
+    },
+    {
+      "id": 2,
+      "address": "456 Oak Rd, Somewhere City",
+      "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "description": "Authentic Italian trattoria offering homemade pasta, wood-fired pizzas, and an extensive wine list.",
+      "name": "Trattoria Italiana"
+    },
+    {
+      "id": 3,
+      "address": "789 Maple Ave, Othertown USA",
+      "image": "https://images.unsplash.com/photo-1432139509613-5c4255815697?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "description": "Modern steakhouse with an impressive selection of prime cuts, seafood, and craft cocktails.",
+      "name": "The Grill House"
+    },
+    {
+      "id": 4,
+      "address": "321 Pine St, Anothertown USA",
+      "image": "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "description": "Casual diner serving classic American comfort food and milkshakes in a retro-inspired setting.",
+      "name": "Retro Diner"
+    }
+  ]

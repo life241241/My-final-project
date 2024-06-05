@@ -1,0 +1,39 @@
+#containerAllResturants{
+    background-color:#bddaf17f;
+    width: 360px;
+    /* height: 1200px; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+#hederPayment{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 21px;
+}
+#subContainer{
+    margin-top: 40px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#card-5 img{
+    width: 164px;
+    /* height: 200px; */
+    border-radius: 10px ;
+}
+#card-5 h3{
+    color: rgba(0, 0, 0, 0.742);
+}
+#card-5 {
+    /* background-color: rgba(137, 143, 143, 0.34); */
+    /* height: 230px; */
+    border-radius: 10px;
+    width:164px;
+    margin: 7px;
+    border: 0.5px solid #0065b7 ;
+    text-align: center;
+    background-color:   #bddaf1 ;
+}

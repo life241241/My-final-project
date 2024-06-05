@@ -1,0 +1,148 @@
+
+.container_payment {
+    background-color: #bddaf17f;
+    width: 320px;
+    /* display: flex; */
+    /* height: 1934px; */
+    height: 620px;
+    /* padding: 20px; */
+    padding-left: 20px;
+    padding-right: 20px;
+    /* padding-bottom: 20px; */
+    justify-content: center;
+    /*text-align: center  ; */
+    /* display: flex;
+    justify-content: center;
+    flex-wrap: nowrap; */
+    direction: rtl;
+  
+  }
+  #hederPayment{
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+}
+    .add-btn {
+        background-color: #2196f3;
+        border: none;
+        color: black;
+        padding: 12px 24px;
+        /* text-align: center; */
+        text-decoration: none;
+        /* display: inline-block; */
+        display: flex;
+        justify-content: space-between;
+        font-size: 16px;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Add box shadow */
+        width: 305px;
+        margin-top: 30px;
+        margin-right: 6px;
+      }
+      .add-btn:hover{
+        background-color: #66b3ee;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+      }
+      
+
+#imagePayment{
+    padding-top: 10px;
+}
+#inputCards{
+    background-color: #c2dcf0;
+    border: none;
+    color: black;
+    padding: 12px 24px;
+    /* text-align: center; */
+    text-decoration: none;
+    /* display: inline-block; */
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Add box shadow */
+    width: 220px;
+    margin-top: 20px;
+    /* margin-right: 6px; */
+    direction: ltr;
+}
+#creditCard{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 22px;
+}
+
+
+.pay-btn {
+    background-color: #2196f3;
+    border: none;
+    color: black;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Add box shadow */
+    width: 300px;
+    margin-top: 110px;
+    margin-right: 9px;
+  }
+  
+  .pay-btn:before {
+    /* content: "\f07a"; */ /* Unicode for the shopping cart icon */
+    font-family: "Font Awesome 5 Free"; /* Use the Font Awesome font */
+    font-weight: 900; /* Use the solid style */
+    margin-right: 8px; /* Add some spacing between the icon and text */
+  }
+  
+  .pay-btn:hover {
+    background-color: #00447b;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); /* Increase box shadow on hover */
+  }
+  #PayFooter{
+    margin-top: 40px;
+  }
+
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  #loading {
+    animation: logo-spin infinite 1s linear;
+  }
+}
+
+
+.btnSpiner{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:320px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.139); /* bg-dark + bg-opacity-75 */
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 0  auto; */
+    margin: 0 auto;
+
+}

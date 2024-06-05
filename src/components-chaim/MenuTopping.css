@@ -1,0 +1,154 @@
+#container1 {
+    width: 360px;
+    height: 950px;
+}
+
+#container1 {
+    background-color: #bddaf17f;
+    direction: rtl;
+    /* padding: 15px; */
+    box-sizing: border-box;
+}
+
+
+Footer {
+    background-color: #b81313;
+    bottom: 0px;
+}
+
+#textSection {
+    padding: 15px;
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.2s ease-in-out;
+}
+
+input[type="checkbox"]:checked {
+    border-color: #2196f3;
+    background-color: #2196f3;
+}
+
+input[type="checkbox"]:checked::after {
+    content: "\2714";
+    font-size: 14px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+label {
+    font-size: 19px;
+
+}
+
+textarea#special-instructions {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    resize: vertical;
+    /* Allows vertical resizing only */
+    border-color: #00c5ec;
+    background-color: #C4E1E7;
+
+}
+textarea#special-instructions:hover{
+    background-color: white;
+}
+#totalMenu{
+    margin-top: 55px;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#totalMenu img:hover {
+  background-color: #bddaf100;
+  cursor: pointer;
+
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+   /* Increase box shadow on hover */
+}
+
+
+  .checkout-btn {
+    background-color: #2196f3;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Add box shadow */
+    width: 270px;
+    margin-top: 30px;
+    margin-right: 29px;
+  }
+  
+  .checkout-btn:before {
+    /* content: "\f07a"; */ /* Unicode for the shopping cart icon */
+    font-family: "Font Awesome 5 Free"; /* Use the Font Awesome font */
+    font-weight: 900; /* Use the solid style */
+    margin-right: 8px; /* Add some spacing between the icon and text */
+  }
+  
+  .checkout-btn:hover {
+    background-color: #00447b;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); /* Increase box shadow on hover */
+  }
+
+
+
+
+
+  
+
+  .add-btn {
+    background-color: #c2dcf0;
+    border: none;
+    color: black;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Add box shadow */
+    width: 270px;
+    margin-top: 30px;
+    margin-right: 29px;
+  }
+  
+  .checkout-btn:before {
+    /* content: "\f07a"; */ /* Unicode for the shopping cart icon */
+    font-family: "Font Awesome 5 Free"; /* Use the Font Awesome font */
+    font-weight: 900; /* Use the solid style */
+    margin-right: 8px; /* Add some spacing between the icon and text */
+  }
+  
+  .add-btn:hover {
+    background-color: #c2dcf0;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); /* Increase box shadow on hover */
+  }
+
+

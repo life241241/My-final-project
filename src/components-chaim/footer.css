@@ -1,0 +1,17 @@
+#ulFooter {
+    display: 'flex';
+    direction:'ltr';
+    justify-content: space-between;
+    text-align:'center';
+}
+
+
+/* #ulFooter img:hover{
+    background-color: aqua;
+
+} */
+#liHover:hover{
+    background-color: #98e6f56b;
+    border-radius: 5px;
+    cursor: pointer;
+}
