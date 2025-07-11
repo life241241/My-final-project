@@ -22,7 +22,7 @@ import MenuTopping from './MenuTopping'
 import Payment from "./Payment";
 import YourOrders from './YourOrders'
 import UserSignUp from './UserSignUp'
-import SignUp from "./SignUp";
+// import SignUp from "./SignUp";
 import OrderEnd from "./OrderEnd";
 import Signin from "./Signin";
 import SignInGoogle from "./SignInGoogle";
@@ -30,8 +30,7 @@ import Footer from "./Footer";
 import SingleRestaurant from './components-meir/SingleRestaurant'
 import AllRestuarants from "./Allresturants";
 import TestAiGemini from "./TestAiGemini"; 
-
-
+import SignUp from "./SignUp"
 
 export default function AppRouter() {
   return (
@@ -72,6 +71,9 @@ export default function AppRouter() {
               <li>
                 <Link to="/TestAiGemini">Test ai gemini</Link>
               </li>
+              <li>
+                <Link to="/SignUp">SignUp</Link>
+              </li>
             </ul>
           </nav>
 
@@ -104,6 +106,9 @@ export default function AppRouter() {
             </Route>
             <Route path="/SingleRestaurant">
               <SingleRestaurant/>
+            </Route>
+            <Route path="SignUp">
+              <SignUp/>
             </Route>
             <Route path="/TestAiGemini">
               <TestAiGemini/>

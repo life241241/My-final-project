@@ -5,6 +5,8 @@ import Footer from "./Footer";
 import { MdOutlineMail } from "react-icons/md";
 import { MdAlternateEmail } from "react-icons/md";
 import { PiLockKey } from "react-icons/pi";
+import testPicture from './pic/pict.jpg'
+import {ReactFloatingBalloons} from 'react-floating-balloons'
 
 
 
@@ -57,24 +59,35 @@ import { PiLockKey } from "react-icons/pi";
 
 // יצירת משתמש חדש
 export default function UserSignUp() {
+    const [showSucces, setshowSucces] = useState(false)
 
-    const [email,setEmail] = useState('')
-    const   emailInput = (e) => {
+    // const handleButtonClick = () => {
+    //     setshowSucces(true);
+
+    // }
+    const [email, setEmail] = useState('')
+    const emailInput = (e) => {
         setEmail(e.target.value)
         console.log(email);
     }
-    const [password,setPassword] = useState('')
+    const [password, setPassword] = useState('')
     const passwordInput = (e) => {
         setPassword(e.target.value)
         console.log(password);
     }
-    const signUP  = async function () {
+    const signUP = async function () {
         // const [count, setCount] = useState(0)
+        setshowSucces(true);
         await createUserWithEmailAndPassword(Auth, email, password)
             .then((userCredential) => {
                 // Signed up 
                 const user = userCredential.user;
                 console.log(user)
+                console.log(Auth.currentUser.uid);
+                // if (user)
+                    // setshowSucces(true);
+
+
                 // ...
             })
             .catch((error) => {
@@ -86,12 +99,21 @@ export default function UserSignUp() {
     }
     return (
         <div>
+            {/* <ReactFloatingBalloons count={2} msgText='ברכיה המלך' /> */}
+
             <div className="containerSign-in w-[360px] h-[530px] bg-[#bddaf17f] text-center p-6">
                 <h1 className='text-3xl'>Sign up</h1>
                 <p className='mt-10'>!Create your account here</p>
                 <button className='bg-[#bddaffff] rounded-sm w-40 mt-6'>?Need help</button>
 
-
+                {
+                    showSucces && (
+                        <div className="bg-slate-700 w-14 h-28">
+                            <img src={testPicture} alt="" />
+                            <ReactFloatingBalloons msgText='מזל טוב לריבקי!!' count={20}/>
+                        </div>
+                    )
+                }
                 <div id='creditCard'>
                     <div className="flex mt-20 flex-col place-content-center">
                         <div className="flex place-items-end">
@@ -99,16 +121,16 @@ export default function UserSignUp() {
                             <input onInput={emailInput} id='inputname' className='w-[87%] pr-2 rounded-md  bg-[#bddaf11a]' type="text" placeholder='Username/Email' />
                             {/* <MdAlternateEmail /> */}
                         </div>
-                            <hr className='h-[2px] bg-black'/>
+                        <hr className='h-[2px] bg-black' />
 
 
                         <div className="flex place-items-end mt-10">
                             {/* <MdOutlineMail /> */}
                             <input onInput={passwordInput} id='inputpassword' className='w-[87%] pr-2 rounded-md  bg-[#bddaf11a]' type="password" placeholder='Password' />
                             {/* <PiLockKey /> */}
-                            
+
                         </div>
-                            <hr className='h-[2px] bg-black'/>
+                        <hr className='h-[2px] bg-black' />
                         <div className="flex mt-10">
 
 
@@ -119,16 +141,17 @@ export default function UserSignUp() {
                 </div>
                 <button onClick={signUP} className="add-btn bg-blue-500 hover:bg-blue-400 text-black py-3 px-6 text-base font-medium rounded-md cursor-pointer transition-colors duration-300 ease-in-out shadow-md hover:shadow-lg w-[280px] mr-[0px] mt-16 text-center x animate-bounce ">- Create my account -</button>
             </div>
-            <Footer/>
+            <Footer />
         </div>
 
-    //     <div>
-    //         <h1 className="text-center">User Sign Up</h1>
-    //         <div id='creditCard' className="mt-24">
-    //             <input onInput = {emailInput} id='inputname' type="text" placeholder='Username' />
-    //             <input onInput = {passwordInput} id='inputpassword' type="text" placeholder='Password' />
-    //         </div>
-    //         <button onDoubleClick = {signUP} > click</button>
-    //     </div>
-    // )
-)}
+        //     <div>
+        //         <h1 className="text-center">User Sign Up</h1>
+        //         <div id='creditCard' className="mt-24">
+        //             <input onInput = {emailInput} id='inputname' type="text" placeholder='Username' />
+        //             <input onInput = {passwordInput} id='inputpassword' type="text" placeholder='Password' />
+        //         </div>
+        //         <button onDoubleClick = {signUP} > click</button>
+        //     </div>
+        // )
+    )
+}

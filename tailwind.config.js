@@ -9,3 +9,14 @@ export default {
   },
   plugins: [],
 }
+
+
+// module.exports = {
+//   theme: {
+//     extend: {
+//       content: {
+//         'link': 'url("/icons/link.svg")',
+//       },
+//     }
+//   }
+// }

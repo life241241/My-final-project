@@ -35,7 +35,7 @@ export default function HomePage() {
                     </div>
                 </div>
                 <div id='Offer_card' className='bg-[#f0f8ff] h-[180px] rounded-lg mt-10 p-6 text-center '>
-                    <h3 className='mt-3 p-3 text-lg '>מבצע לכבוד ספירת העומר 15% הנחה למזרזים להזמין</h3>
+                    <h3 className='mt-3 p-3 text-lg '>מבצע לכבוד היום הזורח 15% הנחה למזדרזים להזמין</h3>
                     <button id='BtnDiscount' className='mt-3  bg-[#bddaf17f] rounded-md p-2 w-32 mr-20 hover:bg-[#a0caec] animate-pulse'>להזמנה עכשיו !</button>
                 </div>
                 <h2 className='text-2xl mt-5'>מסעדות מומלצות</h2>
@@ -52,6 +52,7 @@ export default function HomePage() {
                 <div id='row_pic' className='  h-[285px]   overflow-x-scroll '>
                     <div className="w-[735px] flex flex-row overflow-hidden ">
                         <div id='' className='p-3   h-[240px] bg-slate-500 m-1 rounded-lg  w-[245px] overflow-y-hidden overflow-x-auto'>
+                            {/* <img src={picture} id='row_pic1' alt="" /> */}
                             <img src={picture} id='row_pic1' alt="" />
                             <h3>67 Athi hotel</h3>
                             <p className='p-3'>summer house, athi river Free delivery • 32 mins</p>
@@ -90,7 +91,9 @@ export default function HomePage() {
                 <h2 className='text-2xl mt-5'>מלונות פופולריים</h2>
                 {data.map(function (value) {
                     return (
-                        <div id='pic-100' className='bg-[#f0f8ff] h-72  mt-4 p-1 rounded-lg'>
+                        <div id='pic-100' className='bg-[#f0f8ff] h-72  mt-4 p-1 rounded-lg  transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg'>
+                                {/* <div className="w-72 h-48 bg-gray-100 rounded-lg shadow-md transition-all duration-300 "> */}
+
                             <img src={value.image}  className='rounded-lg h-[200px] w-[100%]' alt="" />
                             <p>{value.name}</p>
                             <p >{value.address}</p>

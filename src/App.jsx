@@ -18,7 +18,7 @@ import { db } from './components-chaim/firebase-config.js'
 import { collection, getDocs } from "firebase/firestore";
 import AllRestaurants from './components-chaim/Allresturants.jsx'
 import TestAi from './components-chaim/TestAi.jsx'
-
+import {ReactFloatingBalloons} from 'react-floating-balloons'
 
 
 function App() {
@@ -35,8 +35,8 @@ function App() {
     <HomePage/>
     <MenuTopping/>
     <AddOnList/> */}
-
-    <AppRouter/>
+    <AppRouter />
+    {/* <ReactFloatingBalloons count={2} msgText='ברכיה המלך' 	/> */}
 
      {/* <div>
       <h1>אפליקציית תיאור תמונה</h1>

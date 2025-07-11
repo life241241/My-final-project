@@ -24,7 +24,7 @@ export default function Payment() {
         setTimeout(() => {
             setShowOverlay(false);
             // navigate("/OrderEnd")
-        }, 1000);
+        }, 5000);
     };
 
     return (

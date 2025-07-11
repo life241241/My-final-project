@@ -14,9 +14,18 @@ import data from './testOrders.json'
 // }
 
 // console.log(element);
-let total = 0
-let  a = 4 + total  
-console.log(a);
+const getTotal = (data) =>  {
+    let total = 0;
+
+    data.forEach(object => {
+    total += object.price
+} )
+console.log(total);
+return total
+}
+
+// let  a = 4 + total  
+// console.log(a);
 
 // let ac  = a += total
 
@@ -79,6 +88,7 @@ export default function YourOrders() {
 
             </div>
             {/* <div style={{ position: 'absolute', but: 0 }}> */}
+            <button onClick={getTotal(data)}>click</button>
             <div id='footer_orders'>
                 <Footer />
             </div>
